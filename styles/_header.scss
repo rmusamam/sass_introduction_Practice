@@ -1,0 +1,22 @@
+
+header {
+    background : yellow;
+    color: $textColor;
+    justify-content: center;
+    display: flex;
+    button{
+        background: rgb(109, 232, 187);
+        &:hover{
+            background: rgb(132, 25, 25);
+        }
+        &::before{
+            content: "helloo";
+        }
+    }
+
+}
+
+  button{
+    background: $btn;
+
+}

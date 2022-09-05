@@ -1,0 +1,23 @@
+header {
+  background: yellow;
+  color: rgb(123, 66, 181);
+  justify-content: center;
+  display: flex;
+}
+header button {
+  background: rgb(109, 232, 187);
+}
+header button:hover {
+  background: rgb(132, 25, 25);
+}
+header button::before {
+  content: "helloo";
+}
+
+button {
+  background: rgb(121, 121, 100);
+}
+
+.con button {
+  background: green;
+}/*# sourceMappingURL=style.css.map */
